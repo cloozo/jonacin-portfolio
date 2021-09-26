@@ -7,13 +7,24 @@
   --main-section-bgcolor:rgb(204, 216, 224);
   --h6-font:'Source Sans Pro', sans-serif;
   --h6-color:rgb(255, 255, 255);
-  --h2-font:'DM Serif Display', serif;
+  --h2-font: 'Calligraffitti';
   --h2-color:rgb(199, 160, 61);
+  --h4-color:rgb(199, 160, 61);
+  --h5-color:rgb(7, 5, 0);
   --main-paragraph-font: 'Source Sans Pro', sans-serif;
-  --main-paragraph-color:rgb(255, 255, 255);
+  --main-paragraph-color:white; 
   --Hover-barcolor:rgb(199, 160, 61);
+  --nav-color:rgb(55, 90, 111);
+
   }
 
+
+  
+.portfolio{
+  display: flex;
+
+  flex-wrap: wrap;
+}
 p{
   font-family:var(--main-paragraph-font);
   color: var(--main-paragraph-color);
@@ -39,8 +50,22 @@ h2 {
   text-transform: uppercase;
   color: var(--h2-color);
 }
+
+h4 {
+  font-family: var(--h2-font);
+  font-weight: 100;
+  font-size: 24px;
+  color:var(--h4-color);
+  text-transform: lowercase;}
+  h5 {
+    font-family: var(--h2-font);
+    font-weight: 100;
+    font-size: 18px;
+    color:var(--h5-color);
+    }
+  
 h6 {
-  font-weight: lighter;
+  font-weight:700;
   letter-spacing: .7px;
   font-family: var(--h6-font);
   text-transform: uppercase;
@@ -48,28 +73,19 @@ h6 {
   margin-left:20px;
 }
 
-
 body{
   /* background:var(--main-section-bgcolor); */
   font-family:var(--main-paragraph-font-family);
 
 }
-
-header h1 .lastn{
-  color: var(--h2-color);
-
+.wrap{
+  width:100%;
 }
-.main-header figure h1{
-  margin-left:20px;
-}
+
+
+
 /* make the image round */
-.profile-image{
-  height:100px;
-  width:100px;
-  border-radius: 50%;
-  box-shadow: 4px 4px 8px;
 
-}
 .main-header {
   background:var(--main-header-color);
   display:flex;
@@ -77,26 +93,98 @@ header h1 .lastn{
   flex-wrap:wrap;
     /* align-items: center aligns the text in the center horizontally */
   align-items: center;  
-   padding-left:20px;
+
    font-family:var(--main-paragraph-font-family);
-    text-transform:lowercase;
     color:rgb(10, 0, 0);
-    /* height:27vh; */
+  height:auto;
+
+}
+
+.main-header .profile-image{
+  float:left;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px;
+  margin:10px;
 
 }
 
 
+.main-header figure h1{
+  text-transform:lowercase;
+  font-size:40px;
+  margin-left:20px;
+}
 
 .main-header h1,h2{
   text-shadow: 2px 1px #0e0000;
-  margin-left:40px;
+  margin-left:20px;
 }
 figure{
 color:white;
 font-size: 20px;
-
+float:left;
 
 }   
+figure .lastn{
+  color: var(--h2-color);
+
+}
+
+#name{
+  padding-top:30px;
+}
+nav  {
+  text-transform:uppercase;
+  text-align: center;
+   font-family:var(--main-paragraph-font-family);
+  background:var(--nav-color);
+  width:500px;
+  height:60px;
+  font-weight: 100;
+  justify-content: right;
+  
+  }
+  
+  ul{
+    
+    list-style:none;
+    margin-left:10px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding: 1.7em 0;
+  
+  }
+  
+  li a{
+    font-size:18px;
+    text-decoration: none;
+    color:white;
+    /* to space out the words */
+    padding-right:5em;
+    position:relative;
+    transition: all ease-in-out 250ms;
+  }
+  li a::after{
+    content:'';
+    position:absolute;
+    display:block;
+    width:0%;
+    height:0.1em;
+    margin-left:20px;
+    background-color: var(--Hover-barcolor);
+    /* bottom: -.3em; */
+    transition: all ease-in-out 250ms;
+  }
+  li a:hover::after{
+    width:110%;
+  }
+  li a:hover{
+    color:var(--Hover-barcolor);
+  }
+
 
 .all-biotext {
 display: flex;
@@ -123,14 +211,18 @@ height:auto;
 
 .biotext a:visited{
   font-weight: bolder;
-  color:rgb(29, 18, 18);
+  color:rgb(164, 195, 233);
  }
  
+ 
 .biotext a:hover{
-  font-weight: bolder;
-  color:white
+  font-weight: bolder;  
+  color:orange;
  }
-
+ .biotext a{
+  font-weight: bolder;
+  color:rgb(211, 228, 212);
+ }
 
 .all-biotext .biotext h1{
  color:var(--h2-color);
@@ -144,21 +236,23 @@ height:auto;
 
 border-top: 1px solid rgb(255, 255, 255);
 padding:20px;
- 
+ font-size: 20px;
  }
 
 
 .all-biotext h2 {
   font-family: var(--h2-font);
   position: relative;
-  width:90%;
+  width:96%;
+  text-transform: capitalize;
   color:white;  
-  font-size: 1.5rem;
-  font-weight:900;
+  font-size: 1.9rem;
+  font-weight:500;
   line-height: 1.4;
+  font-weight: lighter;
   text-align: center;
-  box-shadow: 4px 2px 10px;
-border-bottom:2px solid orange;
+  box-shadow: 1px 1px 6px;
+border-bottom:1px solid #f3f1ee;
  
  
   /* border-right: 2px solid rgb(255, 255, 255); */
@@ -172,14 +266,17 @@ border-bottom:2px solid orange;
 }
 .all-biotext::before {    
     content: "";
-    background-image: url("../images/background5.jpeg");
+    background-image: url("../images/background-1.jpeg"); 
+    /* background: black; */
     background-size: cover;
+  
     position: absolute;
     top: 0px;
+    left: 0px;
     right: 0px;
     bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
+    opacity: 0.9;
+   
 }
 
 
@@ -191,57 +288,7 @@ border-bottom:2px solid orange;
   box-shadow: 4px 1px 10px;
 }
 
-nav  {
-  
-text-align: center;
-word-spacing: 20px;
- font-family:var(--main-paragraph-font-family);
-background:transparent ;
-width:500px;
-padding:20px;
-font-weight: bold;
 
-
-
-}
-
-ul{
-  
-  list-style:none;
-  margin:0;
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-  padding: 1em 0;
-
-}
-
-li a{
-  font-size:25px;
-  text-decoration: none;
-  color:white;
-  /* to space out the words */
-  padding-right:2em;
-  position:relative;
-  transition: all ease-in-out 250ms;
-}
-li a::after{
-  content:'';
-  position:absolute;
-  display:block;
-  width:0%;
-  height:0.1em;
-  margin-left:20px;
-  background-color: var(--Hover-barcolor);
-  /* bottom: -.3em; */
-  transition: all ease-in-out 250ms;
-}
-li a:hover::after{
-  width:110%;
-}
-li a:hover{
-  color:var(--Hover-barcolor);
-}
 
 /* main container */
 .container{
@@ -287,7 +334,11 @@ font-size: 14px;
   text-align:center;
 }
 
-
+.form-container{
+  font-size:24px;
+  text-align: left;
+  color:rgb(255, 255, 255);
+}
 input[type=text], select, textarea {
   width: 100%; 
   padding: 12px; 
@@ -314,90 +365,545 @@ input[type=submit]:hover {
   background-color: var(--main-button-color);
 }
 
+
 /* Add a background color and some padding around the form */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: rgb(228, 196, 174);
+@media only screen and (max-width: 680px) {
+ /* css variables */
+ 
+/* css variables */
+
+
+p{
+  font-family:var(--main-paragraph-font);
+  color: var(--main-paragraph-color);
+  line-height: 35px;
+  letter-spacing: .2px;
+  font-weight: 100;
+  font-size: 25px;
+}
+* {
+ box-sizing: border-box;
     margin:0;
     padding:0;
-    width:100%;
+   
+}
+
+h1 {
+  width:300px;
+}
+h2 {
+  font-family: var(--h2-font);
+  font-weight: 100;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--h2-color);
+}
+
+h4 {
+  font-family: var(--h2-font);
+  font-weight: 100;
+  font-size: 24px;
+  color:var(--h4-color);
+  text-transform: uppercase;}
+  h5 {
+    font-family: var(--h2-font);
+    font-weight: 100;
+    font-size: 18px;
+    color:var(--h5-color);
+    }
+  
+h6 {
+  font-weight: lighter;
+  letter-spacing: .7px;
+  font-family: var(--h6-font);
+  text-transform: uppercase;
+  color: var(--h6-color);
+  margin-left:20px;
+}
+
+body{
+  /* background:var(--main-section-bgcolor); */
+  font-family:var(--main-paragraph-font-family);
+  background: rgb(16, 124, 41);
+
+}
+
+/* make the image round */
+
+.main-header {
+  background:var(--main-header-color);
+  /* display:display; */
+  justify-content:center;
+ 
+    /* align-items: center aligns the text in the center horizontally */
+  align-items: center;  
+
+   font-family:var(--main-paragraph-font-family);
+    color:rgb(10, 0, 0);
+  height:auto;
+
+}
+
+.main-header .profile-image{
+  float:left;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px;
+  margin-left:30px;
+
+}
+
+/* main header - top content */
+.main-header figure h1{
+  width:480px;
+  text-transform:lowercase;
+  font-size:40px;
+}
+
+.main-header h1,h2{
+  text-shadow: 2px 1px #0e0000;
+  margin-left:20px;
+}
+figure{
+color:white;
+font-size: 20px;
+float:left;
+
+}   
+figure .lastn{
+  color: var(--h2-color);
+
+}
+
+#name{
+  padding-top:30px;
+}
+nav  {
+  text-transform:uppercase;
+  text-align: center;
+   font-family:var(--main-paragraph-font-family);
+  background:var(--nav-color);
+  width:410px;
+  height:60px;
+  font-weight: 100;
+  justify-content: right;
+  
   }
 
-  * {
+
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 480px) {
+    /* css variables */
+    
+   /* css variables */
+   
+   
+   p{
+     font-family:var(--main-paragraph-font);
+     color: var(--main-paragraph-color);
+     line-height: 35px;
+     letter-spacing: .2px;
+     font-weight: 100;
+     font-size: 25px;
+   }
+   * {
     box-sizing: border-box;
        margin:0;
        padding:0;
       
    }
-  .main-header {
-    background:var(--main-header-color);
-    display:block;
-width:100vw;
-height:140px;
-  
-      /* align-items: center aligns the text in the center horizontally */
- 
-     padding-left:20px;
+   
+   h1 {
+     width:300px;
+   }
+   h2 {
+     font-family: var(--h2-font);
+     font-weight: 100;
+     font-size: 12px;
+     text-transform: uppercase;
+     color: var(--h2-color);
+   }
+   
+   h4 {
+     font-family: var(--h2-font);
+     font-weight: 100;
+     font-size: 24px;
+     color:var(--h4-color);
+     text-transform: uppercase;}
+     h5 {
+       font-family: var(--h2-font);
+       font-weight: 100;
+       font-size: 18px;
+       color:var(--h5-color);
+       }
+     
+   h6 {
+     font-weight: lighter;
+     letter-spacing: .7px;
+     font-family: var(--h6-font);
+     text-transform: uppercase;
+     color: var(--h6-color);
+     margin-left:20px;
+   }
+   
+   body{
+     /* background:var(--main-section-bgcolor); */
      font-family:var(--main-paragraph-font-family);
+     background: rgb(16, 124, 41);
+   
+   }
+   
+   /* make the image round */
+   
+   .main-header {
+     background:var(--main-header-color);
+     /* display:display; */
+     justify-content:center;
+    
+       /* align-items: center aligns the text in the center horizontally */
+     align-items: center;  
+   
+      font-family:var(--main-paragraph-font-family);
+       color:rgb(10, 0, 0);
+     height:auto;
+   
+   }
+   
+   .main-header .profile-image{
+     float:left;
+     height:100px;
+     width:100px;
+     border-radius: 50%;
+     box-shadow: 4px 4px 8px;
+     margin-left:30px;
+   
+   }
+   
+   /* main header - top content */
+   .main-header figure h1{
+     width:440px;
+     text-transform:lowercase;
+     font-size:40px;
+   }
+   
+   .main-header h1,h2{
+     text-shadow: 2px 1px #0e0000;
+     margin-left:20px;
+   }
+   figure{
+   color:white;
+   font-size: 20px;
+   float:left;
+   
+   }   
+   figure .lastn{
+     color: var(--h2-color);
+   
+   }
+   
+   #name{
+     padding-top:30px;
+   }
+   nav  {
+     text-transform:uppercase;
+     text-align: center;
+      font-family:var(--main-paragraph-font-family);
+     background:var(--nav-color);
+     width:400px;
+     height:60px;
+     font-weight: 100;
+     justify-content: right;
+     
+     }
+
+     .main-header figure h1{
       text-transform:lowercase;
-      color:rgb(255, 255, 255);
-      /* height:27vh; */
-  
+      font-size:30px;
+      margin-left:20px;
+    }
   }
-
-
-  .profile-image{
-    float:left;
-    margin:20px;
-    height:100px;
-    width:20%;
-    border-radius: 50%;
-    box-shadow: 4px 4px 8px;
+    @media only screen and (max-width: 400px) {
+      /* css variables */
+      
+     /* css variables */
+     
+     
+     p{
+       font-family:var(--main-paragraph-font);
+       color: var(--main-paragraph-color);
+       line-height: 35px;
+       letter-spacing: .2px;
+       font-weight: 100;
+       font-size: 25px;
+     }
+     * {
+      box-sizing: border-box;
+         margin:0;
+         padding:0;
+        
+     }
+     
+     h1 {
+       width:300px;
+     }
+     h2 {
+       font-family: var(--h2-font);
+       font-weight: 100;
+       font-size: 12px;
+       text-transform: uppercase;
+       color: var(--h2-color);
+     }
+     
+     h4 {
+       font-family: var(--h2-font);
+       font-weight: 100;
+       font-size: 24px;
+       color:var(--h4-color);
+       text-transform: uppercase;}
+       h5 {
+         font-family: var(--h2-font);
+         font-weight: 100;
+         font-size: 18px;
+         color:var(--h5-color);
+         }
+       
+     h6 {
+       font-weight: lighter;
+       letter-spacing: .7px;
+       font-family: var(--h6-font);
+       text-transform: uppercase;
+       color: var(--h6-color);
+       margin-left:20px;
+     }
+     
+     body{
+       /* background:var(--main-section-bgcolor); */
+       font-family:var(--main-paragraph-font-family);
+       background: rgb(209, 171, 90);
+     
+     }
+     
+     /* make the image round */
+     
+     .main-header {
+       background:var(--main-header-color);
+       /* display:display; */
+       justify-content:center;
+      
+         /* align-items: center aligns the text in the center horizontally */
+       align-items: center;  
+     
+        font-family:var(--main-paragraph-font-family);
+         color:rgb(10, 0, 0);
+       height:auto;
+     
+     }
+     
+     .main-header .profile-image{
+       float:left;
+       height:100px;
+       width:100px;
+       border-radius: 50%;
+       box-shadow: 4px 4px 8px;
+       margin-left:20px;
+     
+     }
+     
+     /* main header - top content */
+     .main-header figure h1{
+       width:390px;
+       text-transform:lowercase;
+       font-size:40px;
+     }
+     
+     .main-header h1,h2{
+       text-shadow: 2px 1px #0e0000;
+       margin-left:10px;
+     }
+     figure{
+     color:white;
+     font-size: 20px;
+     float:left;
+     
+     }   
+     figure .lastn{
+       color: var(--h2-color);
+     
+     }
+     
+     #name{
+       padding-top:30px;
+     }
+     nav  {
+       text-transform:uppercase;
+       text-align: center;
+        font-family:var(--main-paragraph-font-family);
+       background:var(--nav-color);
+       width:380px;
+       height:60px;
+       font-weight: 100;
+       justify-content: right;
+       
+       }
+  /* name */
+       .main-header figure h1{
+        text-transform:lowercase;
+        font-size:30px;
+        margin-left:20px;
+      }
   
-  }
-  .all-biotext {
-
-    display: block;
-      position: relative; 
-      width: 100%;
-    
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-    }
-    .all-biotext img{
-      display: none;
 
     }
 
-    .container{
-      /* background:var(--main-section-bgcolor); */
-      width:75%;
-     display:block;
-     justify-content: center;
 
-    }
-    .sub-container{
-      /* background: rgb(235, 222, 222); */
-      display:block;
-      width:400px;
-      text-align: left;
-      padding:20px;
-    }
-    .sub-container p{
-      line-height: 30px;
-      letter-spacing: .2px;
-      font-weight: lighter;
-      font-size: 28px;
-      color:black;
-    }
 
-figure h1{
-  padding-top:10px;
+      @media only screen and (min-width: 275px) and( max-width:39px) {
+        /* css variables */
+        
+       /* css variables */
+       
+       
+       p{
+         font-family:var(--main-paragraph-font);
+         color: var(--main-paragraph-color);
+         line-height: 35px;
+         letter-spacing: .2px;
+         font-weight: 100;
+         font-size: 25px;
+       }
+       * {
+        box-sizing: border-box;
+           margin:0;
+           padding:0;
+          
+       }
+       
+       h1 {
+         width:260px;
+       }
+       h2 {
+         font-family: var(--h2-font);
+         font-weight: 100;
+         font-size: 12px;
+         text-transform: uppercase;
+         color: var(--h2-color);
+       }
+       
+       h4 {
+         font-family: var(--h2-font);
+         font-weight: 100;
+         font-size: 24px;
+         color:var(--h4-color);
+         text-transform: uppercase;}
+         h5 {
+           font-family: var(--h2-font);
+           font-weight: 100;
+           font-size: 18px;
+           color:var(--h5-color);
+           }
+         
+       h6 {
+         font-weight: lighter;
+         letter-spacing: .7px;
+         font-family: var(--h6-font);
+         text-transform: uppercase;
+         color: var(--h6-color);
+         margin-left:20px;
+       }
+       
+       body{
+         /* background:var(--main-section-bgcolor); */
+         font-family:var(--main-paragraph-font-family);
+         background: rgb(209, 171, 90);
+       
+       }
+       
+       /* make the image round */
+       
+       .main-header {
+         background:var(--main-header-color);
+         /* display:display; */
+         justify-content:center;
+        
+           /* align-items: center aligns the text in the center horizontally */
+         align-items: center;  
+       
+          font-family:var(--main-paragraph-font-family);
+           color:rgb(10, 0, 0);
+         height:auto;
+       
+       }
+       
+       .main-header .profile-image{
+         float:left;
+         height:100px;
+         width:100px;
+         border-radius: 50%;
+         box-shadow: 4px 4px 8px;
+         margin-left:20px;
+       
+       }
+       
+       /* main header - top content */
+       .main-header figure h1{
+         width:260px;
+         text-transform:lowercase;
+         font-size:40px;
+       }
+       
+       .main-header h1,h2{
+         text-shadow: 2px 1px #0e0000;
+         margin-left:10px;
+       }
+       figure{
+       color:white;
+       font-size: 20px;
+       float:left;
+       
+       }   
+       figure .lastn{
+         color: var(--h2-color);
+       
+       }
+       
+       #name{
+         padding-top:30px;
+       }
+       nav  {
+         text-transform:uppercase;
+         text-align: center;
+          font-family:var(--main-paragraph-font-family);
+         background:var(--nav-color);
+         width:260px;
+         height:60px;
+         font-weight: 100;
+         justify-content: right;
+         
+         }
+    /* name */
+         .main-header figure h1{
+          text-transform:lowercase;
+          font-size:30px;
+          margin-left:20px;
+        }
+
+
+        .all-biotext .biotext img{
+          width:200px;
+          text-align: center;
+          height:auto;
+          box-shadow: 4px 1px 10px;
+        }
+
+
+
+
 }
 
-
-
-}
