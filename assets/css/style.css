@@ -369,8 +369,8 @@ input[type=submit]:hover {
  /* css variables */
  
 /* css variables */
-
 p{
+
   font-family:var(--main-paragraph-font);
   color: var(--main-paragraph-color);
   line-height: 35px;
