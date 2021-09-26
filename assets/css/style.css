@@ -426,9 +426,7 @@ body{
   font-family:var(--main-paragraph-font-family);
 }
 .main-header {
-  /* background:var(--main-header-color); */
-  background:rgb(20, 68, 26);
-  /* display:display; */
+  background:var(--main-header-color); 
   justify-content:center;
     /* align-items: center aligns the text in the center horizontally */
   align-items: center;  
