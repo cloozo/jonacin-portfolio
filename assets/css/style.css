@@ -428,7 +428,7 @@ body{
 .main-header {
   background:var(--main-header-color); 
   justify-content:center;
-    /* align-items: center aligns the text in the center horizontally */
+    /* align-items:aligns the text in the center horizontally */
   align-items: center;  
 
    font-family:var(--main-paragraph-font-family);
@@ -617,7 +617,7 @@ nav  {
       margin-left:20px;
     }
   }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 420px) {
       /* css variables */
       
      /* css variables */
