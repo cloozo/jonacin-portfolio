@@ -623,7 +623,7 @@ nav  {
 
 
 
-      @media only screen and (max-width: 350px) {
+      @media only screen and (max-width: 375px) {
       
        .all-biotext .biotext h2{
          font-size:20px;
