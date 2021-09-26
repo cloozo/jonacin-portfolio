@@ -76,7 +76,7 @@ h6 {
 body{
   /* background:var(--main-section-bgcolor); */
   font-family:var(--main-paragraph-font-family);
-
+  background:transparent;
 }
 .wrap{
   width:100%;
@@ -105,8 +105,9 @@ body{
   height:100px;
   width:100px;
   border-radius: 50%;
-  box-shadow: 4px 4px 8px;
+  box-shadow: 4px 4px 6px black;
   margin:10px;
+  
 
 }
 
@@ -366,12 +367,11 @@ input[type=submit]:hover {
 }
 
 
-/* Add a background color and some padding around the form */
-@media only screen and (max-width: 680px) {
+/* ipad air landscape*/
+@media only screen and (max-width: 768px) {
  /* css variables */
  
 /* css variables */
-
 
 p{
   font-family:var(--main-paragraph-font);
@@ -424,17 +424,12 @@ h6 {
 body{
   /* background:var(--main-section-bgcolor); */
   font-family:var(--main-paragraph-font-family);
-  background: rgb(16, 124, 41);
-
 }
-
-/* make the image round */
-
 .main-header {
-  background:var(--main-header-color);
+  /* background:var(--main-header-color); */
+  background:rgb(20, 68, 26);
   /* display:display; */
   justify-content:center;
- 
     /* align-items: center aligns the text in the center horizontally */
   align-items: center;  
 
@@ -449,14 +444,14 @@ body{
   height:100px;
   width:100px;
   border-radius: 50%;
-  box-shadow: 4px 4px 8px;
+  box-shadow: 4px 4px 8px black;
   margin-left:30px;
 
 }
 
 /* main header - top content */
 .main-header figure h1{
-  width:480px;
+  width:520px;
   text-transform:lowercase;
   font-size:40px;
 }
@@ -477,27 +472,22 @@ figure .lastn{
 }
 
 #name{
-  padding-top:30px;
+  padding-top:20px;
 }
 nav  {
   text-transform:uppercase;
   text-align: center;
    font-family:var(--main-paragraph-font-family);
   background:var(--nav-color);
-  width:410px;
+  width:720px;
   height:60px;
   font-weight: 100;
-  justify-content: right;
+  justify-content: center;
   
   }
 
 
 }
-
-
-
-
-
 
   @media only screen and (max-width: 480px) {
     /* css variables */
@@ -556,7 +546,7 @@ nav  {
    body{
      /* background:var(--main-section-bgcolor); */
      font-family:var(--main-paragraph-font-family);
-     background: rgb(16, 124, 41);
+     background: transparent;
    
    }
    
@@ -581,7 +571,7 @@ nav  {
      height:100px;
      width:100px;
      border-radius: 50%;
-     box-shadow: 4px 4px 8px;
+     box-shadow: 4px 4px 8px black;
      margin-left:30px;
    
    }
@@ -686,7 +676,7 @@ nav  {
      body{
        /* background:var(--main-section-bgcolor); */
        font-family:var(--main-paragraph-font-family);
-       background: rgb(209, 171, 90);
+       background: transparent;
      
      }
      
@@ -711,7 +701,7 @@ nav  {
        height:100px;
        width:100px;
        border-radius: 50%;
-       box-shadow: 4px 4px 8px;
+       box-shadow: 4px 4px 8px black;
        margin-left:20px;
      
      }
@@ -821,7 +811,7 @@ nav  {
        body{
          /* background:var(--main-section-bgcolor); */
          font-family:var(--main-paragraph-font-family);
-         background: rgb(209, 171, 90);
+         background: transparent;
        
        }
        
@@ -846,7 +836,7 @@ nav  {
          height:100px;
          width:100px;
          border-radius: 50%;
-         box-shadow: 4px 4px 8px;
+         box-shadow: 4px 4px 8px black;
          margin-left:20px;
        
        }
