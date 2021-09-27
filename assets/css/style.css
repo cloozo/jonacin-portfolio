@@ -203,6 +203,15 @@ width:500px;
 height:auto;
 }
 
+.biotext h4{
+ text-transform: capitalize;
+ font-size: 30px;
+ margin-top:20px;
+}
+
+
+
+
 .biotext a{
  text-decoration: none;
 }
@@ -367,7 +376,10 @@ input[type=submit]:hover {
 /* ipad air landscape*/
 @media only screen and (max-width: 768px) {
   /* css variables */
-  
+  #name h6{
+   font-size:10px;
+   font-weight: bold;
+  }
  /* css variables */
  p{
  
