@@ -18,6 +18,13 @@
 
   }
 
+ .all-biotext .biotext .webdev{
+    width:500px;
+    height:auto;
+  }
+
+
+
 .portfolio{
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +33,7 @@ p{
   font-family:var(--main-paragraph-font);
   color: var(--main-paragraph-color);
   line-height: 35px;
-  letter-spacing: .2px;
+  letter-spacing: .6px;
   font-weight: 100;
   font-size: 25px;
 }
@@ -63,7 +70,7 @@ h4 {
   
 h6 {
   font-weight:700;
-  letter-spacing: .7px;
+  letter-spacing: .4px;
   font-family: var(--h6-font);
   text-transform: uppercase;
   color: var(--h6-color);
@@ -300,7 +307,7 @@ border-bottom:1px solid #f3f1ee;
 /* main container */
 .container{
   /* background:var(--main-section-bgcolor); */
-  width:95%;
+  width:100%;
  display:flex;
  flex-wrap: wrap;
  justify-content: center;
@@ -310,13 +317,13 @@ border-bottom:1px solid #f3f1ee;
 .sub-container{
   /* background: rgb(235, 222, 222); */
   display:block;
-  width:290px;
+  width:300px;
   text-align: left;
-  padding:20px;
+  padding:10px;
 }
 .sub-container p{
   line-height: 30px;
-  letter-spacing: .2px;
+  letter-spacing: .4px;
   font-weight: lighter;
   font-size: 18px;
   color:black;
@@ -371,7 +378,64 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: var(--main-button-color);
 }
+/* social media icons */
+.social-menu{
+ margin-top:25px;
+}
 
+.social-menu ul{
+  position: relative;
+  top:10%;
+  left:35%;
+  padding:0;
+  margin:0;
+  transform:translate(-50%, -50%);
+  display: flex;
+
+}
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;;
+}
+
+.social-menu ul li .fa{
+  font-size: 20px;
+  line-height: 40px;
+  transition: .6s;
+  color:#1877F2;
+}
+
+.social-menu ul li .fa:hover{
+  color:#fff;
+
+}
+.social-menu ul li a{
+position: relative;
+display:block;
+width: 40px;
+height:40px;
+border-radius: 50%;
+background: #fff;
+text-align: center;
+transition: .6s;
+box-shadow: 0 5px 4px black;
+}
+
+.social-menu ul li a:hover{
+  transform:translate(0, -10px)
+}
+.social-menu ul li:nth-child(1) a:hover{
+ background: #1877F2;
+}
+.social-menu ul li:nth-child(2) a:hover{
+  background: #1877F2;
+}
+.social-menu ul li:nth-child(3) a:hover{
+  background: #1877F2;
+}
+.social-menu ul li:nth-child(4) a:hover{
+  background: #1877F2;
+}
 
 /* ipad air landscape*/
 @media only screen and (max-width: 768px) {
@@ -386,7 +450,7 @@ input[type=submit]:hover {
    font-family:var(--main-paragraph-font);
    color: var(--main-paragraph-color);
    line-height: 35px;
-   letter-spacing: .2px;
+   letter-spacing: .4px;
    font-weight: 100;
    font-size: 25px;
  }
@@ -423,7 +487,7 @@ input[type=submit]:hover {
    
  h6 {
    font-weight: lighter;
-   letter-spacing: .7px;
+   letter-spacing: .4px;
    font-family: var(--h6-font);
    text-transform: uppercase;
    color: var(--h6-color);
@@ -507,7 +571,7 @@ input[type=submit]:hover {
         font-family:var(--main-paragraph-font);
         color: var(--main-paragraph-color);
         line-height: 35px;
-        letter-spacing: .2px;
+        letter-spacing: .4px;
         font-weight: 100;
         font-size: 25px;
       }
@@ -544,7 +608,7 @@ input[type=submit]:hover {
         
       h6 {
         font-weight: lighter;
-        letter-spacing: .7px;
+        letter-spacing: .4px;
         font-family: var(--h6-font);
         text-transform: uppercase;
         color: var(--h6-color);
