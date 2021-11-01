@@ -4,7 +4,7 @@
 
 # Resources used
 
-## During the course of this assignment, I have used many ressoures which include but are not limited to mdn documentation, momentjs, fontawesome icons, google api, CDN documentation.
+* During the course of this assignment, I have used many ressoures which include but are not limited to mdn documentation, momentjs, fontawesome icons, google api, CDN documentation.
 
 
 * When someone click on the different sections of my site, it helps navigate them to the “home page”,
@@ -34,7 +34,8 @@ In different sections of the site, one can see my name, a recent photo of me, an
 
 ## link to my code refactor page can be found here: 
 https://cloozo.github.io/code-refactor-horiseon/#search-engine-optimization
-![Uploading coderefactor.png…]()
+![coderefactor](https://user-images.githubusercontent.com/84163696/139619840-e5bfeec5-5ea1-4c12-8942-35cfdbd2df75.png)
+
 
 ---
 # Technologies Used
