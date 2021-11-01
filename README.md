@@ -50,4 +50,4 @@ https://cloozo.github.io/code-refactor-horiseon/#search-engine-optimization
 # Assignment: Calendar Challenge
 
 By Jonacin Pierre-Louis, 2021
-Powered by HTML and CSS jQuery
+Powered by HTML and CSS,Bootstrap & Javascript jQuery, 3rd party APIs
