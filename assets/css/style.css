@@ -18,12 +18,15 @@
 
   }
 
- .all-biotext .biotext .webdev{
+ .all-biotext .biotext {
     width:500px;
     height:auto;
   }
 
-
+#web-dev,img{
+  width:480px;
+  height:auto;
+}
 
 .portfolio{
   display: flex;
@@ -283,7 +286,6 @@ border-bottom:1px solid #f3f1ee;
     background-image: url("../images/background-1.jpeg"); 
     /* background: black; */
     background-size: cover;
-  
     position: absolute;
     top: 0px;
     left: 0px;
