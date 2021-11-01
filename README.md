@@ -22,13 +22,13 @@ In different sections of the site, one can see my name, a recent photo of me, an
  Overall, it was a great learning experience and this activity has helped me greatly advanced in my road to becoming a web developper.
 
 ## link to my portfolu page can be found here: 
-[Click here to see Calendar Challenge App] (https://cloozo.github.io/jonacin-portfolio/portfolio.html)
+[Click the link to see my portfolio] (https://cloozo.github.io/jonacin-portfolio/portfolio.html)
 ![portfoliosite](https://user-images.githubusercontent.com/84163696/139619611-924b9634-208d-4bde-b113-f7c195cf4a0d.png)
 
 
 
 ## recent group project: 
-[Click here to see Chef Bartender App ] (https://alysnyder.github.io/group-1-project/)
+[Click th link to see the Chef Bartender App ] (https://alysnyder.github.io/group-1-project/)
 ![chefbartender](https://user-images.githubusercontent.com/84163696/139619577-98c5cf9c-ec0d-42cf-8aca-db0df23fc72c.png)
 
 
@@ -42,6 +42,8 @@ https://cloozo.github.io/code-refactor-horiseon/#search-engine-optimization
 
 - Vanilla JavaScript
 - HTML
+- Bootstrap
+- JQuery
 - CSS
 - Semantic tags for user visibility and accessibility
 
