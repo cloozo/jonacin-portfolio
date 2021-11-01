@@ -1,7 +1,8 @@
 
 ## Jonacin Pierre-Louis Portfolio - 2021
 ---
-# During the course of this assignment, I have used many ressoures which include but are not limited to mdn documentation,
+
+## During the course of this assignment, I have used many ressoures which include but are not limited to mdn documentation,
 momentjs, fontawesome icons, google api, CDN documentation.
 
 
@@ -21,13 +22,20 @@ In different sections of the site, one can see my name, a recent photo of me, an
  Overall, it was a great learning experience and this activity has helped me greatly advanced in my road to becoming a web developper.
 
 ## link to my portfolu page can be found here: 
-[Click here to see Calendar Challenge App] (https://cloozo.github.io/jonacin-portfolio/)
+[Click here to see Calendar Challenge App] (https://cloozo.github.io/jonacin-portfolio/portfolio.html)
+![portfoliosite](https://user-images.githubusercontent.com/84163696/139619611-924b9634-208d-4bde-b113-f7c195cf4a0d.png)
+
+
 
 ## recent group project: 
 [Click here to see Chef Bartender App ] (https://alysnyder.github.io/group-1-project/)
+![chefbartender](https://user-images.githubusercontent.com/84163696/139619577-98c5cf9c-ec0d-42cf-8aca-db0df23fc72c.png)
+
 
 ## link to my code refactor page can be found here: 
 https://cloozo.github.io/code-refactor-horiseon/#search-engine-optimization
+![Uploading coderefactor.png…]()
+
 ---
 # Technologies Used
 
