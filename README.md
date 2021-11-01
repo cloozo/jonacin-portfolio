@@ -2,8 +2,8 @@
 ## Jonacin Pierre-Louis Portfolio - 2021
 ---
 
-## During the course of this assignment, I have used many ressoures which include but are not limited to mdn documentation,
-momentjs, fontawesome icons, google api, CDN documentation.
+## Resources used
+# During the course of this assignment, I have used many ressoures which include but are not limited to mdn documentation, momentjs, fontawesome icons, google api, CDN documentation.
 
 
 * When someone click on the different sections of my site, it helps navigate them to the “home page”,
