@@ -21,15 +21,36 @@ In different sections of the site, one can see my name, a recent photo of me, an
 ---
  Overall, it was a great learning experience and this activity has helped me greatly advanced in my road to becoming a web developper.
 
-## link to my portfolu page can be found here: 
+## link to my portfolio page can be found here: 
 [Click the link to see my portfolio] (https://cloozo.github.io/jonacin-portfolio/portfolio.html)
 ![portfoliosite](https://user-images.githubusercontent.com/84163696/139619611-924b9634-208d-4bde-b113-f7c195cf4a0d.png)
 
-
-
 ## recent group project: 
-[Click th link to see the Chef Bartender App ] (https://alysnyder.github.io/group-1-project/)
+[Click the link to see the Chef Bartender App ] (https://alysnyder.github.io/group-1-project/)
 ![chefbartender](https://user-images.githubusercontent.com/84163696/139619577-98c5cf9c-ec0d-42cf-8aca-db0df23fc72c.png)
+
+
+## link to weather dashboard page can be found here: 
+https://cloozo.github.io/weather-dashboard-app-2021/index.html
+![weatherdashoboard](![screenshot](https://user-images.githubusercontent.com/84163696/140142641-8ecfc30c-5c7d-4103-aeb2-9907434f49cb.png)
+)
+
+## link to work day scheduler app: 
+ https://cloozo.github.io/calendar-challenge-javascript-app/
+![calendarscheduler](![workdayscheduler](https://user-images.githubusercontent.com/84163696/140156552-f718ff44-b275-4a1c-b742-587350b5633e.png)
+)
+
+## link to Code Quiz app: 
+5. https://cloozo.github.io/quiz-challenge-javascript-page/
+![calendarscheduler](![Screen Shot 2021-11-03 at 1 24 50 PM](https://user-images.githubusercontent.com/84163696/140162451-646ecfa1-7aac-4c7e-9227-ca518163cea4.png)
+)
+
+
+
+## link to password generator app: 
+ https://cloozo.github.io/password-generator-web-app/
+![calendarscheduler](![passwordGenerator](https://user-images.githubusercontent.com/84163696/140158188-fc034afa-8e48-438a-8432-8d825c4814a2.png)
+)
 
 
 ## link to my code refactor page can be found here: 
