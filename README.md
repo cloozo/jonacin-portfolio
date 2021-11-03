@@ -22,40 +22,40 @@ In different sections of the site, one can see my name, a recent photo of me, an
  Overall, it was a great learning experience and this activity has helped me greatly advanced in my road to becoming a web developper.
 
 ## link to my portfolio page can be found here: 
-[Click the link to see my portfolio] -> (https://cloozo.github.io/jonacin-portfolio/portfolio.html)
+Click the link to see my portfolio page-> (https://cloozo.github.io/jonacin-portfolio/portfolio.html)
 ![portfoliosite](https://user-images.githubusercontent.com/84163696/139619611-924b9634-208d-4bde-b113-f7c195cf4a0d.png)
 
 ## recent group project: 
-[Click the link to see the Chef Bartender App ] (https://alysnyder.github.io/group-1-project/)
+Click the link to see the Chef Bartender web App -> (https://alysnyder.github.io/group-1-project/)
 ![chefbartender](https://user-images.githubusercontent.com/84163696/139619577-98c5cf9c-ec0d-42cf-8aca-db0df23fc72c.png)
 
 
 ## link to weather dashboard page can be found here: 
- Click to go to my weather dashboard -> https://cloozo.github.io/weather-dashboard-app-2021/index.html
+ Click to go to my weather dashboard  web App -> https://cloozo.github.io/weather-dashboard-app-2021/index.html
 ![weatherdashboard](https://user-images.githubusercontent.com/84163696/140164832-ef11db62-7afa-4c08-a42a-6d3da20df354.png)
 
 
 )
 
 ## link to work day scheduler app: 
- Click to go to  my work day scheduler app -> (https://cloozo.github.io/calendar-challenge-javascript-app/)
+ Click to go to  my work day scheduler web app -> (https://cloozo.github.io/calendar-challenge-javascript-app/)
 ![workdayscheduler](![workdayscheduler](https://user-images.githubusercontent.com/84163696/140165193-b7e77866-4e34-44b8-8359-23f31c58cd1f.png)
 )
 
 
 ## link to Code Quiz app: 
-  Click to go to  my Code quiz app -> https://cloozo.github.io/quiz-challenge-javascript-page/
+  Click to go to  my Code quiz web app -> https://cloozo.github.io/quiz-challenge-javascript-page/
 ![Screen Shot 2021-11-03 at 1 24 50 PM](https://user-images.githubusercontent.com/84163696/140163331-298d7d9d-4f2d-4cf2-bb4d-20363761a7f5.png)
 
 
 ## link to password generator app: 
- Click to go to my password generator app app -> https://cloozo.github.io/password-generator-web-app/
+ Click to go to my password generator web app -> https://cloozo.github.io/password-generator-web-app/
 ![calendarscheduler](![passwordGenerator](https://user-images.githubusercontent.com/84163696/140158188-fc034afa-8e48-438a-8432-8d825c4814a2.png)
 )
 
 
 ## link to my code refactor page can be found here: 
- Click to go to  my code refactor page app -> https://cloozo.github.io/code-refactor-horiseon/#search-engine-optimization
+ Click to go to  my code refactor page -> https://cloozo.github.io/code-refactor-horiseon/#search-engine-optimization
 ![coderefactor](https://user-images.githubusercontent.com/84163696/139619840-e5bfeec5-5ea1-4c12-8942-35cfdbd2df75.png)
 
 
