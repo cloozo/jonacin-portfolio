@@ -32,14 +32,16 @@ In different sections of the site, one can see my name, a recent photo of me, an
 
 ## link to weather dashboard page can be found here: 
 https://cloozo.github.io/weather-dashboard-app-2021/index.html
-![weatherdashboard](https://user-images.githubusercontent.com/84163696/140163058-8af030e7-ea56-49c2-973a-d2034b4e2d2a.png)
+![weatherdashboard](https://user-images.githubusercontent.com/84163696/140164832-ef11db62-7afa-4c08-a42a-6d3da20df354.png)
+
 
 )
 
 ## link to work day scheduler app: 
- https://cloozo.github.io/calendar-challenge-javascript-app/
-![calendarscheduler](![workdayscheduler](https://user-images.githubusercontent.com/84163696/140156552-f718ff44-b275-4a1c-b742-587350b5633e.png)
+[Click the link to see my portfolio] (https://cloozo.github.io/calendar-challenge-javascript-app/)
+![workdayscheduler](![workdayscheduler](https://user-images.githubusercontent.com/84163696/140165193-b7e77866-4e34-44b8-8359-23f31c58cd1f.png)
 )
+
 
 ## link to Code Quiz app: 
 5. https://cloozo.github.io/quiz-challenge-javascript-page/
