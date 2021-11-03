@@ -298,12 +298,12 @@ border-bottom:1px solid #f3f1ee;
 
 
 .all-biotext .biotext img{
-  width:330px;
+  width:400px;
   text-align: center;
   height:auto;
-  box-shadow: 4px 1px 10px;
-}
+  box-shadow: 4px 1px 8px;
 
+}
 
 
 /* main container */
@@ -758,10 +758,10 @@ box-shadow: 0 5px 4px black;
  
  
          .all-biotext .biotext img{
-           width:200px;
+           width:400px;
            text-align: center;
            height:auto;
-           box-shadow: 4px 1px 10px;
+           box-shadow: 4px 1px 5px;
          }
  
          .biotext{
@@ -879,10 +879,10 @@ box-shadow: 0 5px 4px black;
  
  
          .all-biotext .biotext img{
-           width:200px;
+           width:400px;
            text-align: center;
            height:auto;
-           box-shadow: 4px 1px 10px;
+           box-shadow: 4px 1px 5px;
          }
          nav  {
            text-transform:lowercase;
