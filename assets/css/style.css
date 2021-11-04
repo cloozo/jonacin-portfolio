@@ -22,12 +22,10 @@
     width:500px;
     height:auto;
   }
-
 #web-dev,img{
   width:480px;
   height:auto;
 }
-
 .portfolio{
   display: flex;
   flex-wrap: wrap;
@@ -297,7 +295,7 @@ border-bottom:1px solid #f3f1ee;
 
 
 
-.all-biotext .biotext img{
+.all-biotext .biotext #web-dev img {
   width:400px;
   text-align: center;
   height:auto;
@@ -758,7 +756,7 @@ box-shadow: 0 5px 4px black;
  
  
          .all-biotext .biotext img{
-           width:400px;
+           width:370px;
            text-align: center;
            height:auto;
            box-shadow: 4px 1px 5px;
@@ -879,7 +877,7 @@ box-shadow: 0 5px 4px black;
  
  
          .all-biotext .biotext img{
-           width:400px;
+           width:270px;
            text-align: center;
            height:auto;
            box-shadow: 4px 1px 5px;
