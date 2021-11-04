@@ -294,16 +294,6 @@ border-bottom:1px solid #f3f1ee;
 }
 
 
-
-.all-biotext .biotext #web-dev img {
-  width:400px;
-  text-align: center;
-  height:auto;
-  box-shadow: 4px 1px 8px;
-
-}
-
-
 /* main container */
 .container{
   /* background:var(--main-section-bgcolor); */
@@ -557,7 +547,14 @@ box-shadow: 0 5px 4px black;
    
    }
  
- 
+   .all-biotext .biotext.portfolio #web-dev1 img {
+    width:500px;
+    text-align: center;
+    height:auto;
+    box-shadow: 4px 1px 8px;
+  
+  }
+  
  }
  
  
@@ -638,15 +635,6 @@ box-shadow: 0 5px 4px black;
       
       }
       
-      .main-header .profile-image{
-        float:left;
-        height:100px;
-        width:100px;
-        border-radius: 50%;
-        box-shadow: 4px 4px 8px black;
-        margin-left:20px;
-      
-      }
       
       /* main header - top content */
       .main-header figure h1{
@@ -691,6 +679,16 @@ box-shadow: 0 5px 4px black;
          margin-left:20px;
        }
    
+       .all-biotext .biotext.portfolio #web-dev1 img {
+        width:490px;
+        text-align: center;
+        height:auto;
+        box-shadow: 4px 1px 5px;
+      }
+
+
+
+
  
      }
  
@@ -755,12 +753,7 @@ box-shadow: 0 5px 4px black;
          }
  
  
-         .all-biotext .biotext img{
-           width:370px;
-           text-align: center;
-           height:auto;
-           box-shadow: 4px 1px 5px;
-         }
+    
  
          .biotext{
            position: relative;
@@ -821,12 +814,19 @@ box-shadow: 0 5px 4px black;
              color:var(--Hover-barcolor);
            }
  
+           .all-biotext .biotext.portfolio #web-dev1 img {
+            width:370px;
+            text-align: center;
+            height:auto;
+            box-shadow: 4px 1px 5px;
+          }
+
+
+
  }
  
   @media only screen and (max-width: 275px) {
        
-        
-        
         .main-header .profile-image{
           float:left;
           height:60px;
@@ -876,7 +876,7 @@ box-shadow: 0 5px 4px black;
          }
  
  
-         .all-biotext .biotext img{
+         .all-biotext img{
            width:270px;
            text-align: center;
            height:auto;
@@ -894,10 +894,6 @@ box-shadow: 0 5px 4px black;
            
            }
  
- 
- 
- 
-           
            nav ul{
              
              list-style:none;
@@ -935,6 +931,15 @@ box-shadow: 0 5px 4px black;
            nav li a:hover{
              color:var(--Hover-barcolor);
            }
+           .all-biotext .biotext.portfolio #web-dev1 img {
+            width:270px;
+            text-align: center;
+            height:auto;
+            box-shadow: 4px 1px 5px;
+          }
+
+
+
 
  }
  
